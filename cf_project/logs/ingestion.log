@@ -1,0 +1,67 @@
+2026-06-16 18:50:41,760 - ERROR - Error loading inventory CSV: [Errno 2] No such file or directory: 'data/inventory_sample_200.csv'
+2026-06-16 18:50:41,760 - ERROR - Error loading shipment JSON: [Errno 2] No such file or directory: 'data/shipment_sample_200.json'
+2026-06-16 18:50:41,760 - ERROR - Error loading invoice PDF: [Errno 2] No such file or directory: 'data/custom_invoice_format.pdf'
+2026-06-16 18:50:41,760 - INFO - All raw data saved successfully
+2026-06-16 18:59:16,664 - ERROR - Error loading inventory CSV: [Errno 2] No such file or directory: 'data/inventory_sample_200.csv'
+2026-06-16 18:59:16,664 - ERROR - Error loading shipment JSON: [Errno 2] No such file or directory: 'data/shipment_sample_200.json'
+2026-06-16 18:59:16,666 - ERROR - Error loading invoice PDF: [Errno 2] No such file or directory: 'data/custom_invoice_format.pdf'
+2026-06-16 18:59:16,666 - INFO - All raw data saved successfully
+2026-06-16 19:01:29,604 - ERROR - Error loading inventory CSV: [Errno 2] No such file or directory: 'data/raw/inventory_sample_200.csv'
+2026-06-16 19:01:29,604 - ERROR - Error loading shipment JSON: [Errno 2] No such file or directory: 'data/raw/shipment_sample_200.json'
+2026-06-16 19:01:29,604 - ERROR - Error loading invoice PDF: [Errno 2] No such file or directory: 'data/raw/custom_invoice_format.pdf'
+2026-06-16 19:01:29,604 - INFO - All raw data saved successfully
+2026-06-16 19:06:13,487 - ERROR - Error loading inventory CSV: [Errno 2] No such file or directory: 'data/raw/inventory_sample_200.csv'
+2026-06-16 19:06:13,488 - ERROR - Error loading shipment JSON: [Errno 2] No such file or directory: 'data/raw/shipment_sample_200.json'
+2026-06-16 19:06:13,489 - ERROR - Error loading invoice PDF: [Errno 2] No such file or directory: 'data/raw/custom_invoice_format.pdf'
+2026-06-16 19:06:13,490 - INFO - All raw data saved successfully
+2026-06-16 19:09:33,527 - ERROR - Error loading inventory CSV: [Errno 2] No such file or directory: 'data/raw/inventory_sample_200.csv'
+2026-06-16 19:09:33,527 - ERROR - Error loading shipment JSON: [Errno 2] No such file or directory: 'data/raw/shipment_sample_200.json'
+2026-06-16 19:09:33,527 - ERROR - Error loading invoice PDF: [Errno 2] No such file or directory: 'data/raw/custom_invoice_format.pdf'
+2026-06-16 19:09:33,527 - INFO - All raw data saved successfully
+2026-06-16 19:10:47,538 - ERROR - Error loading inventory CSV: [Errno 2] No such file or directory: 'data/raw/inventory_sample_200.csv'
+2026-06-16 19:10:47,538 - ERROR - Error loading shipment JSON: [Errno 2] No such file or directory: 'data/raw/shipment_sample_200.json'
+2026-06-16 19:10:47,538 - ERROR - Error loading invoice PDF: [Errno 2] No such file or directory: 'data/raw/custom_invoice_format.pdf'
+2026-06-16 19:10:47,538 - INFO - All raw data saved successfully
+2026-06-16 19:14:30,708 - INFO - Inventory CSV loaded successfully
+2026-06-16 19:14:30,709 - ERROR - Error loading shipment JSON: [Errno 2] No such file or directory: 'D:\\cf_project\\data\\raw\\shipment_sample_200.json'
+2026-06-16 19:14:30,709 - ERROR - Error loading invoice PDF: [Errno 2] No such file or directory: 'D:\\cf_project\\data\\raw\\custom_invoice_format.pdf'
+2026-06-16 19:14:30,728 - INFO - Inventory validation completed
+2026-06-16 19:14:30,734 - INFO - All raw data saved successfully
+2026-06-16 19:16:11,550 - ERROR - Error loading inventory CSV: [Errno 2] No such file or directory: 'cf_project/data/raw/inventory.csv'
+2026-06-16 19:16:11,550 - ERROR - Error loading shipment JSON: [Errno 2] No such file or directory: 'cf_project/data/raw/shipment_sample_200.json'
+2026-06-16 19:16:11,550 - ERROR - Error loading invoice PDF: [Errno 2] No such file or directory: 'cf_project/data/raw/custom_invoice_format.pdf'
+2026-06-16 19:16:11,550 - INFO - All raw data saved successfully
+2026-06-16 19:19:07,672 - ERROR - Error loading inventory CSV: [Errno 2] No such file or directory: 'cf_project/data/raw/inventory.csv'
+2026-06-16 19:19:07,673 - ERROR - Error loading shipment JSON: [Errno 2] No such file or directory: 'cf_project/data/raw/shipment_sample_200.json'
+2026-06-16 19:19:07,673 - ERROR - Error loading invoice PDF: [Errno 2] No such file or directory: 'cf_project/data/raw/custom_invoice_format.pdf'
+2026-06-16 19:19:07,673 - INFO - All raw data saved successfully
+2026-06-16 19:20:10,106 - ERROR - Error loading inventory CSV: [Errno 2] No such file or directory: 'cf_project\\raw\\inventory.csv'
+2026-06-16 19:20:10,107 - ERROR - Error loading shipment JSON: [Errno 2] No such file or directory: 'cf_project\\raw\\shipment_sample_200.json'
+2026-06-16 19:20:10,107 - ERROR - Error loading invoice PDF: [Errno 2] No such file or directory: 'cf_project\\raw\\custom_invoice_format.pdf'
+2026-06-16 19:20:10,107 - INFO - All raw data saved successfully
+2026-06-16 19:20:23,337 - INFO - Inventory CSV loaded successfully
+2026-06-16 19:20:23,337 - ERROR - Error loading shipment JSON: [Errno 2] No such file or directory: 'D:\\cf_project\\raw\\shipment_sample_200.json'
+2026-06-16 19:20:23,337 - ERROR - Error loading invoice PDF: [Errno 2] No such file or directory: 'D:\\cf_project\\raw\\custom_invoice_format.pdf'
+2026-06-16 19:20:23,363 - INFO - Inventory validation completed
+2026-06-16 19:20:23,371 - INFO - All raw data saved successfully
+2026-06-16 19:21:41,749 - INFO - Inventory CSV loaded successfully
+2026-06-16 19:21:41,764 - INFO - Shipment JSON loaded successfully
+2026-06-16 19:21:41,767 - INFO - Invoice PDF loaded successfully
+2026-06-16 19:21:41,806 - INFO - Inventory validation completed
+2026-06-16 19:21:41,810 - INFO - Shipment validation completed
+2026-06-16 19:21:41,826 - INFO - All raw data saved successfully
+2026-06-17 10:48:56,806 - INFO - Inventory CSV loaded successfully
+2026-06-17 10:48:56,827 - INFO - Shipment JSON loaded successfully
+2026-06-17 10:48:56,848 - INFO - Invoice PDF loaded successfully
+2026-06-17 10:48:56,890 - INFO - Inventory validation completed
+2026-06-17 10:48:56,900 - INFO - Shipment validation completed
+2026-06-17 10:48:56,911 - INFO - All raw data saved successfully
+2026-06-17 10:58:16,070 - INFO - Inventory CSV loaded successfully
+2026-06-17 10:58:16,074 - INFO - Shipment JSON loaded successfully
+2026-06-17 10:58:16,083 - INFO - Invoice PDF loaded successfully
+2026-06-17 10:58:28,863 - INFO - Inventory CSV loaded successfully
+2026-06-17 10:58:28,865 - INFO - Shipment JSON loaded successfully
+2026-06-17 10:58:28,869 - INFO - Invoice PDF loaded successfully
+2026-06-17 10:58:28,915 - INFO - Inventory validation completed
+2026-06-17 10:58:28,919 - INFO - Shipment validation completed
+2026-06-17 10:58:28,935 - INFO - All raw data saved successfully
