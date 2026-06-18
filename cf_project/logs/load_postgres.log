@@ -1,0 +1,102 @@
+2026-06-17 12:50:59,749 - INFO - Starting DB load process
+2026-06-17 12:51:00,006 - INFO - PostgreSQL connection created
+2026-06-17 12:51:00,008 - ERROR - Error loading data: [Errno 2] No such file or directory: 'data/final/inventory_final.csv'
+2026-06-17 12:51:00,008 - ERROR - Error creating fact_inventory: 'NoneType' object has no attribute 'to_sql'
+2026-06-17 12:51:00,008 - ERROR - Error creating fact_shipment: 'NoneType' object has no attribute 'to_sql'
+2026-06-17 12:51:00,008 - ERROR - Error creating fact_invoice: 'NoneType' object has no attribute 'to_sql'
+2026-06-17 12:51:00,008 - ERROR - Error creating dim_item: 'NoneType' object is not subscriptable
+2026-06-17 12:51:00,008 - ERROR - Error creating dim_location: 'NoneType' object is not subscriptable
+2026-06-17 12:51:00,009 - ERROR - Error creating dim_status: 'NoneType' object is not subscriptable
+2026-06-17 12:51:04,199 - ERROR - Query error: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-06-17 12:51:04,228 - INFO - Load process completed
+2026-06-17 14:19:46,337 - INFO - Starting DB load process
+2026-06-17 14:19:46,490 - INFO - PostgreSQL connection created
+2026-06-17 14:19:46,492 - ERROR - Error loading data: [Errno 2] No such file or directory: 'data/final/inventory_final.csv'
+2026-06-17 14:19:46,492 - ERROR - Error creating fact_inventory: 'NoneType' object has no attribute 'to_sql'
+2026-06-17 14:19:46,492 - ERROR - Error creating fact_shipment: 'NoneType' object has no attribute 'to_sql'
+2026-06-17 14:19:46,492 - ERROR - Error creating fact_invoice: 'NoneType' object has no attribute 'to_sql'
+2026-06-17 14:19:46,493 - ERROR - Error creating dim_item: 'NoneType' object is not subscriptable
+2026-06-17 14:19:46,493 - ERROR - Error creating dim_location: 'NoneType' object is not subscriptable
+2026-06-17 14:19:46,493 - ERROR - Error creating dim_status: 'NoneType' object is not subscriptable
+2026-06-17 14:19:50,969 - ERROR - Query error: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-06-17 14:19:50,985 - INFO - Load process completed
+2026-06-17 14:26:03,657 - INFO - Starting DB load process
+2026-06-17 14:26:03,742 - INFO - PostgreSQL connection created
+2026-06-17 14:26:03,743 - ERROR - Error loading data: [Errno 2] No such file or directory: 'data/final/inventory_final.csv'
+2026-06-17 14:26:03,743 - ERROR - Error creating fact_inventory: 'NoneType' object has no attribute 'to_sql'
+2026-06-17 14:26:03,743 - ERROR - Error creating fact_shipment: 'NoneType' object has no attribute 'to_sql'
+2026-06-17 14:26:03,743 - ERROR - Error creating fact_invoice: 'NoneType' object has no attribute 'to_sql'
+2026-06-17 14:26:03,743 - ERROR - Error creating dim_item: 'NoneType' object is not subscriptable
+2026-06-17 14:26:03,743 - ERROR - Error creating dim_location: 'NoneType' object is not subscriptable
+2026-06-17 14:26:03,743 - ERROR - Error creating dim_status: 'NoneType' object is not subscriptable
+2026-06-17 14:26:03,993 - ERROR - Query error: Execution failed on sql '
+        SELECT item_name, SUM(total_value) AS total_value
+        FROM fact_inventory
+        GROUP BY item_name;
+        ': (psycopg2.errors.UndefinedTable) relation "fact_inventory" does not exist
+LINE 3:         FROM fact_inventory
+                     ^
+
+[SQL: 
+        SELECT item_name, SUM(total_value) AS total_value
+        FROM fact_inventory
+        GROUP BY item_name;
+        ]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2026-06-17 14:26:03,993 - INFO - Load process completed
+2026-06-17 14:26:46,393 - INFO - Starting DB load process
+2026-06-17 14:26:46,475 - INFO - PostgreSQL connection created
+2026-06-17 14:26:46,476 - ERROR - Error loading data: [Errno 2] No such file or directory: 'data/processed/inventory_final.csv'
+2026-06-17 14:26:46,476 - ERROR - Error creating fact_inventory: 'NoneType' object has no attribute 'to_sql'
+2026-06-17 14:26:46,476 - ERROR - Error creating fact_shipment: 'NoneType' object has no attribute 'to_sql'
+2026-06-17 14:26:46,476 - ERROR - Error creating fact_invoice: 'NoneType' object has no attribute 'to_sql'
+2026-06-17 14:26:46,476 - ERROR - Error creating dim_item: 'NoneType' object is not subscriptable
+2026-06-17 14:26:46,476 - ERROR - Error creating dim_location: 'NoneType' object is not subscriptable
+2026-06-17 14:26:46,476 - ERROR - Error creating dim_status: 'NoneType' object is not subscriptable
+2026-06-17 14:26:46,600 - ERROR - Query error: Execution failed on sql '
+        SELECT item_name, SUM(total_value) AS total_value
+        FROM fact_inventory
+        GROUP BY item_name;
+        ': (psycopg2.errors.UndefinedTable) relation "fact_inventory" does not exist
+LINE 3:         FROM fact_inventory
+                     ^
+
+[SQL: 
+        SELECT item_name, SUM(total_value) AS total_value
+        FROM fact_inventory
+        GROUP BY item_name;
+        ]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2026-06-17 14:26:46,625 - INFO - Load process completed
+2026-06-17 14:29:06,463 - INFO - Starting DB load process
+2026-06-17 14:29:06,552 - INFO - PostgreSQL connection created
+2026-06-17 14:29:06,603 - INFO - All final datasets loaded
+2026-06-17 14:29:06,869 - INFO - Fact Inventory table created
+2026-06-17 14:29:06,917 - INFO - Fact Shipment table created
+2026-06-17 14:29:06,949 - INFO - Fact Invoice table created
+2026-06-17 14:29:06,991 - INFO - Dimension item created
+2026-06-17 14:29:07,016 - INFO - Dimension location created
+2026-06-17 14:29:07,054 - INFO - Dimension status created
+2026-06-17 14:29:07,098 - INFO - Queries executed successfully
+2026-06-17 14:29:07,103 - INFO - Load process completed
+2026-06-17 14:38:40,913 - INFO - Starting DB load process
+2026-06-17 14:38:41,015 - INFO - PostgreSQL connection created
+2026-06-17 14:38:41,063 - INFO - All final datasets loaded
+2026-06-17 14:38:41,375 - INFO - Fact Inventory table created
+2026-06-17 14:38:41,434 - INFO - Fact Shipment table created
+2026-06-17 14:38:41,467 - INFO - Fact Invoice table created
+2026-06-17 14:38:41,508 - INFO - Dimension item created
+2026-06-17 14:38:41,564 - INFO - Dimension location created
+2026-06-17 14:38:41,608 - INFO - Dimension status created
+2026-06-17 14:38:41,660 - INFO - Queries executed successfully
+2026-06-17 14:38:41,660 - INFO - Load process completed
