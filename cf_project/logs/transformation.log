@@ -1,40 +1,125 @@
-2026-06-17 12:35:01,397 - ERROR - Error loading data: [Errno 2] No such file or directory: 'data/processed/inventory_processed.csv'
-2026-06-17 12:35:01,400 - ERROR - Error cleaning inventory: 'date'
-2026-06-17 12:35:01,401 - ERROR - Error cleaning shipment: 'date'
-2026-06-17 12:35:01,401 - ERROR - Error adding inventory features: 'quantity'
-2026-06-17 12:35:01,402 - INFO - Invoice processed successfully
-2026-06-17 12:35:01,402 - ERROR - Error in inventory analysis: 'item_name'
-2026-06-17 12:35:01,402 - ERROR - Error in shipment analysis: 'status'
-2026-06-17 12:35:01,403 - ERROR - Error in time analysis: 'time'
-2026-06-17 12:35:01,414 - INFO - Final processed data saved
-2026-06-17 12:35:01,416 - INFO - Transformation completed successfully
-2026-06-17 12:37:53,343 - INFO - All datasets loaded successfully
-2026-06-17 12:37:53,358 - INFO - Inventory cleaned successfully
-2026-06-17 12:37:53,361 - INFO - Shipment cleaned successfully
-2026-06-17 12:37:53,362 - INFO - Inventory features added
-2026-06-17 12:37:53,363 - INFO - Invoice processed successfully
-2026-06-17 12:37:53,374 - INFO - Inventory analysis completed
-2026-06-17 12:37:53,384 - INFO - Shipment analysis completed
-2026-06-17 12:37:53,406 - INFO - Time-based analysis completed
-2026-06-17 12:37:53,421 - INFO - Final processed data saved
-2026-06-17 12:37:53,422 - INFO - Transformation completed successfully
-2026-06-17 12:40:27,730 - INFO - All datasets loaded successfully
-2026-06-17 12:40:27,741 - INFO - Inventory cleaned successfully
-2026-06-17 12:40:27,748 - INFO - Shipment cleaned successfully
-2026-06-17 12:40:27,749 - INFO - Inventory features added
-2026-06-17 12:40:27,749 - INFO - Invoice processed successfully
-2026-06-17 12:40:27,766 - INFO - Inventory analysis completed
-2026-06-17 12:40:27,791 - INFO - Shipment analysis completed
-2026-06-17 12:40:27,822 - INFO - Time-based analysis completed
-2026-06-17 12:40:27,840 - INFO - Final processed data saved
-2026-06-17 12:40:27,843 - INFO - Transformation completed successfully
-2026-06-17 14:38:35,202 - INFO - All datasets loaded successfully
-2026-06-17 14:38:35,217 - INFO - Inventory cleaned successfully
-2026-06-17 14:38:35,224 - INFO - Shipment cleaned successfully
-2026-06-17 14:38:35,226 - INFO - Inventory features added
-2026-06-17 14:38:35,226 - INFO - Invoice processed successfully
-2026-06-17 14:38:35,245 - INFO - Inventory analysis completed
-2026-06-17 14:38:35,271 - INFO - Shipment analysis completed
-2026-06-17 14:38:35,294 - INFO - Time-based analysis completed
-2026-06-17 14:38:35,312 - INFO - Final processed data saved
-2026-06-17 14:38:35,312 - INFO - Transformation completed successfully
+2026-06-19 11:47:44,362 - INFO - All datasets loaded successfully
+2026-06-19 11:47:44,377 - ERROR - Error cleaning inventory: 'date'
+2026-06-19 11:47:44,385 - ERROR - Error cleaning shipment: 'date'
+2026-06-19 11:47:44,386 - ERROR - Error adding inventory features: 'quantity'
+2026-06-19 11:47:44,386 - INFO - Invoice processed successfully
+2026-06-19 11:47:44,386 - ERROR - Error in inventory analysis: 'item_name'
+2026-06-19 11:47:44,387 - ERROR - Error in shipment analysis: 'status'
+2026-06-19 11:47:44,387 - ERROR - Error in time analysis: 'time'
+2026-06-19 11:47:44,402 - INFO - Final processed data saved
+2026-06-19 11:47:44,403 - INFO - Transformation completed successfully
+2026-06-19 11:48:16,139 - INFO - All datasets loaded successfully
+2026-06-19 11:48:16,144 - ERROR - Error cleaning inventory: 'date'
+2026-06-19 11:48:16,153 - ERROR - Error cleaning shipment: 'date'
+2026-06-19 11:48:16,153 - ERROR - Error adding inventory features: 'quantity'
+2026-06-19 11:48:16,153 - INFO - Invoice processed successfully
+2026-06-19 11:48:16,153 - ERROR - Error in inventory analysis: 'item_name'
+2026-06-19 11:48:16,153 - ERROR - Error in shipment analysis: 'status'
+2026-06-19 11:48:16,154 - ERROR - Error in time analysis: 'time'
+2026-06-19 11:48:16,166 - INFO - Final processed data saved
+2026-06-19 11:48:16,167 - INFO - Transformation completed successfully
+2026-06-19 12:42:50,605 - INFO - All datasets loaded successfully
+2026-06-19 12:42:50,614 - INFO - Inventory cleaned successfully
+2026-06-19 12:42:50,637 - INFO - Shipment cleaned successfully
+2026-06-19 12:42:50,638 - INFO - Inventory features added
+2026-06-19 12:42:50,638 - INFO - Invoice processed successfully
+2026-06-19 12:42:50,655 - INFO - Inventory analysis completed
+2026-06-19 12:42:50,656 - ERROR - Error in shipment analysis: 'product_name'
+2026-06-19 12:42:50,656 - ERROR - Error in time analysis: 'dispatch_date'
+2026-06-19 12:42:50,673 - INFO - Final processed data saved
+2026-06-19 12:42:50,675 - INFO - Transformation completed successfully
+2026-06-19 12:45:06,664 - INFO - All datasets loaded successfully
+2026-06-19 12:45:06,675 - INFO - Inventory cleaned successfully
+2026-06-19 12:45:06,694 - INFO - Shipment cleaned successfully
+2026-06-19 12:45:06,697 - INFO - Inventory features added
+2026-06-19 12:45:06,697 - INFO - Invoice processed successfully
+2026-06-19 12:45:06,719 - INFO - Inventory analysis completed
+2026-06-19 12:45:06,728 - INFO - Shipment analysis completed
+2026-06-19 12:45:06,729 - ERROR - Error in time analysis: 'dispatch_date'
+2026-06-19 12:45:06,750 - INFO - Final processed data saved
+2026-06-19 12:45:06,752 - INFO - Transformation completed successfully
+2026-06-19 12:46:51,717 - INFO - All datasets loaded successfully
+2026-06-19 12:46:51,722 - INFO - Inventory cleaned successfully
+2026-06-19 12:46:51,732 - INFO - Shipment cleaned successfully
+2026-06-19 12:46:51,733 - INFO - Inventory features added
+2026-06-19 12:46:51,733 - INFO - Invoice processed successfully
+2026-06-19 12:46:51,763 - INFO - Inventory analysis completed
+2026-06-19 12:46:51,771 - INFO - Shipment analysis completed
+2026-06-19 12:46:51,772 - ERROR - Error in time analysis: dispatch_date column missing
+2026-06-19 12:46:51,796 - INFO - Final processed data saved
+2026-06-19 12:46:51,797 - INFO - Transformation completed successfully
+2026-06-19 12:48:42,277 - INFO - All datasets loaded successfully
+2026-06-19 12:48:42,291 - INFO - Inventory cleaned successfully
+2026-06-19 12:48:42,299 - INFO - Shipment cleaned successfully
+2026-06-19 12:48:42,302 - INFO - Inventory features added
+2026-06-19 12:48:42,305 - INFO - Invoice processed successfully
+2026-06-19 12:48:42,327 - INFO - Inventory analysis completed
+2026-06-19 12:48:42,341 - INFO - Shipment analysis completed
+2026-06-19 12:48:42,341 - ERROR - Error in time analysis: Column 'dispatch_date' not found
+2026-06-19 12:48:42,362 - INFO - Final processed data saved
+2026-06-19 12:48:42,362 - INFO - Transformation completed successfully
+2026-06-19 12:48:58,384 - INFO - All datasets loaded successfully
+2026-06-19 12:48:58,389 - INFO - Inventory cleaned successfully
+2026-06-19 12:48:58,404 - INFO - Shipment cleaned successfully
+2026-06-19 12:48:58,405 - INFO - Inventory features added
+2026-06-19 12:48:58,406 - INFO - Invoice processed successfully
+2026-06-19 12:48:58,429 - INFO - Inventory analysis completed
+2026-06-19 12:48:58,436 - INFO - Shipment analysis completed
+2026-06-19 12:49:13,824 - INFO - All datasets loaded successfully
+2026-06-19 12:49:13,830 - INFO - Inventory cleaned successfully
+2026-06-19 12:49:13,843 - INFO - Shipment cleaned successfully
+2026-06-19 12:49:13,844 - INFO - Inventory features added
+2026-06-19 12:49:13,845 - INFO - Invoice processed successfully
+2026-06-19 12:49:13,861 - INFO - Inventory analysis completed
+2026-06-19 12:49:13,873 - INFO - Shipment analysis completed
+2026-06-19 12:49:13,894 - INFO - Final processed data saved
+2026-06-19 12:49:13,899 - INFO - Transformation completed successfully
+2026-06-19 14:22:18,006 - INFO - All datasets loaded successfully
+2026-06-19 14:22:18,015 - INFO - Inventory cleaned successfully
+2026-06-19 14:22:18,023 - INFO - Shipment cleaned successfully
+2026-06-19 14:22:18,024 - INFO - Inventory features added
+2026-06-19 14:22:18,025 - INFO - Invoice processed successfully
+2026-06-19 14:22:18,054 - INFO - Inventory analysis completed
+2026-06-19 14:22:18,063 - INFO - Shipment analysis completed
+2026-06-19 14:22:18,098 - INFO - Text data prepared successfully
+2026-06-19 14:22:18,115 - INFO - Final processed data saved
+2026-06-19 14:22:18,116 - INFO - Transformation completed successfully
+2026-06-22 11:26:55,085 - INFO - All datasets loaded successfully
+2026-06-22 11:26:55,108 - INFO - Inventory cleaned successfully
+2026-06-22 11:26:55,130 - INFO - Shipment cleaned successfully
+2026-06-22 11:26:55,132 - INFO - Inventory features added
+2026-06-22 11:26:55,133 - INFO - Invoice processed successfully
+2026-06-22 11:26:55,155 - INFO - Inventory analysis completed
+2026-06-22 11:26:55,174 - INFO - Shipment analysis completed
+2026-06-22 11:26:55,233 - INFO - Text data prepared successfully
+2026-06-22 11:26:55,248 - INFO - Final processed data saved
+2026-06-22 11:26:55,248 - INFO - Transformation completed successfully
+2026-06-22 13:04:49,906 - INFO - All datasets loaded successfully
+2026-06-22 13:04:49,916 - INFO - Inventory cleaned successfully
+2026-06-22 13:04:49,917 - INFO - Inventory cleaned successfully
+2026-06-22 13:04:49,931 - INFO - Shipment cleaned successfully
+2026-06-22 13:04:49,932 - INFO - Shipment cleaned successfully
+2026-06-22 13:04:49,933 - INFO - Inventory features added
+2026-06-22 13:04:49,933 - INFO - Invoice processed successfully
+2026-06-22 13:04:49,933 - INFO - Inventory features added
+2026-06-22 13:04:49,934 - INFO - Invoice processed successfully
+2026-06-22 13:04:49,949 - INFO - Inventory analysis completed
+2026-06-22 13:04:49,974 - INFO - Shipment analysis completed
+2026-06-22 13:04:49,975 - INFO - Shipment analysis completed
+2026-06-22 13:04:50,052 - INFO - Text data prepared successfully
+2026-06-22 13:04:50,057 - INFO - Text data prepared successfully
+2026-06-22 13:04:50,083 - INFO - Final processed data saved
+2026-06-22 13:04:50,085 - INFO - Final processed data saved
+2026-06-22 13:04:50,086 - INFO - Transformation completed successfully
+2026-06-22 13:04:50,090 - INFO - Transformation completed successfully
+2026-06-22 17:48:56,974 - INFO - All datasets loaded successfully
+2026-06-22 17:48:56,980 - INFO - Inventory cleaned successfully
+2026-06-22 17:48:56,990 - INFO - Shipment cleaned successfully
+2026-06-22 17:48:56,991 - INFO - Inventory features added
+2026-06-22 17:48:56,991 - INFO - Invoice processed successfully
+2026-06-22 17:48:57,000 - INFO - Inventory analysis completed
+2026-06-22 17:48:57,015 - INFO - Shipment analysis completed
+2026-06-22 17:48:57,054 - INFO - Text data prepared successfully
+2026-06-22 17:48:57,056 - INFO - Text data saved successfully
+2026-06-22 17:48:57,066 - INFO - Final processed data saved
+2026-06-22 17:48:57,067 - INFO - Transformation completed successfully

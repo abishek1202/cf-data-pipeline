@@ -1,0 +1,80 @@
+Query: Which shipments are delayed?
+Latency: 0.229 sec
+Results:
+Shipment IND-SHP075 from Delhi to Coimbatore 
+            is Delayed with cost 3281 INR.
+Shipment IND-SHP075 from Delhi to Coimbatore 
+            is Delayed with cost 3281 INR.
+Shipment IND-SHP075 from Delhi to Coimbatore 
+            is Delayed with cost 3281 INR.
+Shipment IND-SHP016 from Kolkata to Coimbatore 
+            is Delayed with cost 3086 INR.
+Shipment IND-SHP016 from Kolkata to Coimbatore 
+            is Delayed with cost 3086 INR.
+
+======================
+
+Query: Show delivered shipments
+Latency: 0.092 sec
+Results:
+Shipment IND-SHP150 from Kolkata to Pune 
+            is Delivered with cost 811 INR.
+Shipment IND-SHP150 from Kolkata to Pune 
+            is Delivered with cost 811 INR.
+Shipment IND-SHP150 from Kolkata to Pune 
+            is Delivered with cost 811 INR.
+Shipment IND-SHP189 from Chennai to Ahmedabad 
+            is Delivered with cost 4506 INR.
+Shipment IND-SHP189 from Chennai to Ahmedabad 
+            is Delivered with cost 4506 INR.
+
+======================
+
+Query: Which products have low stock?
+Latency: 0.092 sec
+Results:
+Product Water Tank has stock level 487 
+            in warehouse Hyderabad with price 533 INR.
+Product Water Tank has stock level 487 
+            in warehouse Hyderabad with price 533 INR.
+Product Water Tank has stock level 487 
+            in warehouse Hyderabad with price 533 INR.
+Product Water Tank has stock level 60 
+            in warehouse Bangalore with price 554 INR.
+Product Water Tank has stock level 60 
+            in warehouse Bangalore with price 554 INR.
+
+======================
+
+Query: Show inventory in Chennai
+Latency: 0.081 sec
+Results:
+Product Water Tank has stock level 358 
+            in warehouse Chennai with price 2384 INR.
+Product Water Tank has stock level 358 
+            in warehouse Chennai with price 2384 INR.
+Product Water Tank has stock level 358 
+            in warehouse Chennai with price 2384 INR.
+Product Red Bricks has stock level 114 
+            in warehouse Chennai with price 4123 INR.
+Product Red Bricks has stock level 114 
+            in warehouse Chennai with price 4123 INR.
+
+======================
+
+Query: Give shipment summary
+Latency: 0.08 sec
+Results:
+Shipment IND-SHP152 from Kolkata to Coimbatore 
+            is Delivered with cost 4378 INR.
+Shipment IND-SHP152 from Kolkata to Coimbatore 
+            is Delivered with cost 4378 INR.
+Shipment IND-SHP152 from Kolkata to Coimbatore 
+            is Delivered with cost 4378 INR.
+Shipment IND-SHP050 from Chennai to Lucknow 
+            is Delivered with cost 4504 INR.
+Shipment IND-SHP050 from Chennai to Lucknow 
+            is Delivered with cost 4504 INR.
+
+======================
+

@@ -1,9 +1,34 @@
-2026-06-17 14:54:25,011 - INFO - Pipeline started
-2026-06-17 14:54:25,012 - INFO - Data loaded successfully
-2026-06-17 14:54:25,012 - INFO - Pipeline completed
-2026-06-17 14:59:42,386 - INFO - Pipeline started
-
-2026-06-17 14:59:42,387 - INFO - Data loaded successfully
-
-2026-06-17 14:59:42,390 - INFO - Pipeline completed
-
+2026-06-19 13:07:53,058 - INFO - Pipeline started
+2026-06-19 13:07:53,074 - INFO - Inventory CSV loaded successfully
+2026-06-19 13:07:53,079 - INFO - Shipment JSON loaded successfully
+2026-06-19 13:07:53,083 - INFO - Invoice PDF loaded successfully
+2026-06-19 13:07:53,092 - INFO - Inventory validation completed
+2026-06-19 13:07:53,095 - INFO - Shipment validation completed
+2026-06-19 13:07:53,110 - INFO - All raw data saved successfully
+2026-06-19 13:07:53,111 - INFO - Raw data saved successfully
+2026-06-19 13:07:53,111 - INFO - Ingestion completed
+2026-06-19 13:07:53,115 - INFO - Inventory cleaned successfully
+2026-06-19 13:07:53,133 - INFO - Shipment cleaned successfully
+2026-06-19 13:07:53,137 - INFO - Inventory features added
+2026-06-19 13:07:53,138 - INFO - Invoice processed successfully
+2026-06-19 13:07:53,147 - INFO - Final processed data saved
+2026-06-19 13:07:53,148 - INFO - Transformation completed
+2026-06-19 13:07:53,149 - INFO - Data Warehouse completed
+2026-06-19 13:07:53,149 - INFO - Pipeline completed successfully
+2026-06-22 17:50:59,498 - INFO - Pipeline started
+2026-06-22 17:50:59,510 - INFO - Inventory CSV loaded successfully
+2026-06-22 17:50:59,514 - INFO - Shipment JSON loaded successfully
+2026-06-22 17:50:59,516 - INFO - Invoice PDF loaded successfully
+2026-06-22 17:50:59,522 - INFO - Inventory validation completed
+2026-06-22 17:50:59,531 - INFO - Shipment validation completed
+2026-06-22 17:50:59,540 - INFO - All raw data saved successfully
+2026-06-22 17:50:59,541 - INFO - Raw data saved successfully
+2026-06-22 17:50:59,541 - INFO - Ingestion completed
+2026-06-22 17:50:59,549 - INFO - Inventory cleaned successfully
+2026-06-22 17:50:59,558 - INFO - Shipment cleaned successfully
+2026-06-22 17:50:59,559 - INFO - Inventory features added
+2026-06-22 17:50:59,559 - INFO - Invoice processed successfully
+2026-06-22 17:50:59,568 - INFO - Final processed data saved
+2026-06-22 17:50:59,569 - INFO - Transformation completed
+2026-06-22 17:50:59,572 - INFO - Data Warehouse completed
+2026-06-22 17:50:59,573 - INFO - Pipeline completed successfully

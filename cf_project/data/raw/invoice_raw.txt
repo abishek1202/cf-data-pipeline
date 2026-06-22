@@ -1,23 +1,24 @@
-----------------------------------------
-          INVOICE
-----------------------------------------
-Company: ABC Logistics Pvt Ltd
-Address: Chennai, India
-Contact: +91-9876543210
-Invoice ID: INV-1001
-Date: 2025-03-12
-Customer: XYZ Traders
-Location: Bangalore
-Shipment ID: SHP-567
-----------------------------------------
-Item       Qty    Price    Total
-----------------------------------------
-Item_1     10    100      1000
-Item_2     5     200      1000
-Item_3     2     500      1000
-----------------------------------------
-Subtotal: 3000
-GST (18%): 540
-Grand Total: 3540
-Payment Mode: Bank Transfer
-----------------------------------------
+INVOICE
+-------------------------------------------
+Invoice ID: IND-INV-1001
+Invoice Date: 19-06-2026
+Customer Name: Arjun Kumar
+Address: 12, Anna Nagar, Chennai, Tamil Nadu, India
+Phone: +91-9876543210
+-------------------------------------------
+Product Details
+-------------------------------------------
+1. Steel TMT Bar | Qty: 100 | Price: 550 | GST: 18% | Total: 64900
+2. Cement OPC 53 | Qty: 50 | Price: 380 | GST: 18% | Total: 22420
+3. PVC Pipes | Qty: 30 | Price: 250 | GST: 12% | Total: 8400
+-------------------------------------------
+Subtotal: 81500
+GST Total: 14120
+Grand Total: 95620
+Payment Mode: UPI
+Payment Status: Paid
+-------------------------------------------
+Supplier: ABC Traders Pvt Ltd
+GSTIN: 33ABCDE1234F1Z5
+Location: Chennai Warehouse
+-------------------------------------------

@@ -1,7 +1,7 @@
 import json
 import pandas as pd
 import logging
-from PyPDF2 import PdfReader
+from PyPDF2 import PdfReader  #Imports PdfReader to extract text from PDF files.
 
 # ==============================
 # Logging Configuration
@@ -12,8 +12,9 @@ logging.basicConfig(
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
 
-
+# ==============================
 # Load CSV (Inventory)
+# ==============================
 
 def load_inventory(file_path):
     try:
@@ -25,15 +26,16 @@ def load_inventory(file_path):
         return None
 
 
-
+# ==============================
 # Load JSON (Shipment)
+# ==============================
 
 def load_shipment(file_path):
     try:
         with open(file_path, 'r') as f:
-            data = json.load(f)
+            data = json.load(f) # Loads JSON into Python object.
 
-        df = pd.DataFrame(data)
+        df = pd.DataFrame(data) #Converts JSON to DataFrame.
         logging.info("Shipment JSON loaded successfully")
         return df
 
@@ -42,7 +44,9 @@ def load_shipment(file_path):
         return None
 
 
+# ==============================
 # Load PDF (Invoice)
+# ==============================
 
 def load_invoice(file_path):
     try:
@@ -50,7 +54,7 @@ def load_invoice(file_path):
         text = ""
 
         for page in reader.pages:
-            text += page.extract_text()
+            text += page.extract_text() #Extracts text from each extract_text() page and concatenates text += it into a single string.
 
         logging.info("Invoice PDF loaded successfully")
         return text
@@ -60,13 +64,14 @@ def load_invoice(file_path):
         return None
 
 
-
+# ==============================
 # Save Raw Data
+# ==============================
 
 def save_raw_data(inventory_df, shipment_df, invoice_text):
     try:
         # Save inventory
-        if inventory_df is not None:
+        if inventory_df is not None: #checks if inventory exists.
             inventory_df.to_csv("data/raw/inventory_raw.csv", index=False)
 
         # Save shipment
@@ -83,8 +88,9 @@ def save_raw_data(inventory_df, shipment_df, invoice_text):
     except Exception as e:
         logging.error(f"Error saving raw data: {e}")
 
-
+# ==============================
 # Validate Data
+# ==============================
 
 def validate_data(df, name):
     try:
@@ -98,15 +104,16 @@ def validate_data(df, name):
         logging.error(f"Error validating {name}: {e}")
 print(" Starting Data Ingestion Pipeline...")
 
-
+# ==============================
 # Run Ingestion Pipeline
+# ==============================
 
 if __name__ == "__main__":
 
     # File paths
-    inventory_path = "D:\\cf_project\\raw\\inventory.csv"
-    shipment_path = "D:\\cf_project\\raw\\shipment.json"
-    invoice_path = "D:\\cf_project\\raw\\invoice.pdf"
+    inventory_path = "c:\\cf_project\\raw\\inventory.csv"
+    shipment_path = "c:\\cf_project\\raw\\shipment.json"
+    invoice_path = "c:\\cf_project\\raw\\invoice.pdf"
 
     # Load data
     inventory_df = load_inventory(inventory_path)

@@ -1,0 +1,17 @@
+QUERY: Which shipments are delayed?
+
+Result 1:
+Shipment IND-SHP075 from Delhi to Coimbatore 
+            is Delayed with cost 3281 INR.
+Metadata: {'type': 'shipment'}
+
+Result 2:
+Shipment IND-SHP075 from Delhi to Coimbatore 
+            is Delayed with cost 3281 INR.
+Metadata: {'type': 'shipment'}
+
+Result 3:
+Shipment IND-SHP075 from Delhi to Coimbatore 
+            is Delayed with cost 3281 INR.
+Metadata: {'type': 'shipment'}
+

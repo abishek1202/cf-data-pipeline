@@ -1,25 +1,22 @@
 # ==============================
 # IMPORT MODULES
 # ==============================
+import logging
+import os
+from ingestion import *
 
-from ingestion import (
-    load_inventory,
-    load_shipment,
-    load_invoice,
-    save_raw_data,
-    validate_data
+from transformation import *
+
+# Logging Configuration
+
+os.makedirs("logs", exist_ok=True)
+
+logging.basicConfig(
+    filename='logs/pipeline.log',
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',encoding='utf-8',force=True
+    
 )
-
-from transformation import (
-    clean_inventory,
-    clean_shipment,
-    add_inventory_features,
-    process_invoice,
-    save_processed
-)
-
-
-
 
 # ==============================
 # PIPELINE FUNCTION
@@ -27,6 +24,7 @@ from transformation import (
 def run_pipeline():
 
     print("🚀 Starting Full Pipeline...\n")
+    logging.info("Pipeline started")
 
     # ==============================
     # STEP 1: INGESTION
@@ -37,13 +35,16 @@ def run_pipeline():
 
     if inventory is None or shipment is None:
         print("❌ Error loading data")
+        logging.error("Error loading data")
         return
 
     validate_data(inventory, "Inventory")
     validate_data(shipment, "Shipment")
 
     save_raw_data(inventory, shipment, invoice_text)
+    logging.info("Raw data saved successfully")
     print("✅ Ingestion Completed")
+    logging.info("Ingestion completed")
 
     # ==============================
     # STEP 2: TRANSFORMATION
@@ -56,13 +57,16 @@ def run_pipeline():
 
     save_processed(inventory, shipment, invoice_data)
     print("✅ Transformation Completed")
+    logging.info("Transformation completed")
 
     # ==============================
     # STEP 3: DATA WAREHOUSE (already done separately)
     # ==============================
     print("✅ Data Warehouse Completed")
+    logging.info("Data Warehouse completed")
 
     print("\n🎉 Pipeline Completed Successfully")
+    logging.info("Pipeline completed successfully")
 
 
 # ==============================

@@ -1,201 +1,201 @@
-item_id,item_name,quantity,price,warehouse,date,time
-1,Item_25,228,49.05,Bangalore,2025-04-04,08:48:16
-2,Item_3,106,84.7,Chennai,2025-01-19,13:19:28
-3,Item_3,166,409.22,Mumbai,2025-01-04,18:48:04
-4,Item_12,234,276.51,Mumbai,2025-04-11,06:30:56
-5,Item_32,437,466.43,Chennai,2025-03-02,23:18:51
-6,Item_35,90,175.13,Mumbai,2025-03-31,04:48:36
-7,Item_36,290,257.12,Chennai,2025-04-02,07:57:01
-8,Item_18,178,495.5,Mumbai,2025-02-23,00:26:48
-9,Item_44,370,307.72,Mumbai,2025-05-08,09:27:58
-10,Item_8,110,220.21,Mumbai,2025-03-13,14:01:18
-11,Item_11,428,381.06,Hyderabad,2025-01-14,17:20:20
-12,Item_1,343,435.74,Hyderabad,2025-03-17,08:41:09
-13,Item_46,100,104.44,Bangalore,2025-06-30,02:11:36
-14,Item_9,164,251.35,Bangalore,2025-02-01,21:09:47
-15,Item_13,52,431.67,Hyderabad,2025-06-06,06:24:48
-16,Item_50,362,391.25,Bangalore,2025-03-18,18:38:35
-17,Item_29,250,319.68,Bangalore,2025-03-29,14:19:48
-18,Item_26,26,138.4,Chennai,2025-03-29,05:39:08
-19,Item_25,319,48.76,Bangalore,2025-05-16,06:31:01
-20,Item_25,176,57.19,Mumbai,2025-03-08,19:10:00
-21,Item_48,294,244.06,Bangalore,2025-04-14,17:50:21
-22,Item_48,260,285.83,Mumbai,2025-03-21,16:53:23
-23,Item_18,30,296.17,Hyderabad,2025-04-28,15:21:57
-24,Item_3,471,239.38,Mumbai,2025-01-01,01:25:30
-25,Item_50,218,58.25,Hyderabad,2025-06-07,13:27:09
-26,Item_10,43,448.94,Hyderabad,2025-03-08,02:42:19
-27,Item_5,83,154.28,Hyderabad,2025-06-06,10:14:40
-28,Item_15,141,299.98,Mumbai,2025-05-12,09:54:25
-29,Item_5,36,480.22,Hyderabad,2025-03-24,00:37:33
-30,Item_21,186,327.18,Mumbai,2025-02-14,07:57:09
-31,Item_18,379,488.9,Hyderabad,2025-02-21,20:55:46
-32,Item_25,457,158.27,Bangalore,2025-05-02,07:58:58
-33,Item_31,319,298.53,Chennai,2025-03-26,06:17:09
-34,Item_29,379,468.04,Chennai,2025-05-21,20:02:20
-35,Item_1,191,165.7,Bangalore,2025-03-08,10:36:39
-36,Item_12,254,317.61,Bangalore,2025-02-28,20:19:40
-37,Item_34,276,80.11,Mumbai,2025-05-26,14:09:05
-38,Item_36,185,423.7,Bangalore,2025-04-05,05:27:11
-39,Item_39,492,174.32,Hyderabad,2025-03-12,17:01:31
-40,Item_2,304,374.87,Chennai,2025-01-10,15:31:01
-41,Item_45,69,341.96,Bangalore,2025-02-27,02:21:27
-42,Item_29,376,28.41,Hyderabad,2025-06-27,16:41:23
-43,Item_35,223,358.97,Chennai,2025-04-25,18:03:13
-44,Item_46,50,229.28,Chennai,2025-05-28,17:06:55
-45,Item_12,202,82.83,Bangalore,2025-03-27,07:10:09
-46,Item_45,381,116.19,Hyderabad,2025-01-08,18:26:30
-47,Item_22,494,91.68,Hyderabad,2025-01-16,01:00:50
-48,Item_21,496,459.7,Chennai,2025-02-13,04:59:43
-49,Item_38,473,439.13,Bangalore,2025-02-08,00:12:10
-50,Item_15,399,405.72,Chennai,2025-05-05,06:14:18
-51,Item_33,332,204.25,Bangalore,2025-02-01,00:10:05
-52,Item_11,401,385.56,Chennai,2025-03-03,17:20:49
-53,Item_25,416,146.94,Bangalore,2025-05-28,21:21:09
-54,Item_37,379,158.02,Mumbai,2025-03-21,13:44:45
-55,Item_39,290,268.14,Bangalore,2025-06-29,03:49:38
-56,Item_5,214,312.26,Hyderabad,2025-01-05,07:28:58
-57,Item_9,239,367.61,Hyderabad,2025-03-24,22:08:24
-58,Item_25,278,336.24,Mumbai,2025-02-14,02:19:29
-59,Item_1,67,272.45,Hyderabad,2025-03-11,17:39:14
-60,Item_19,346,112.27,Bangalore,2025-02-19,05:45:03
-61,Item_16,257,116.16,Chennai,2025-03-02,17:33:35
-62,Item_22,480,484.76,Hyderabad,2025-02-21,04:11:19
-63,Item_9,121,77.8,Bangalore,2025-01-04,09:36:33
-64,Item_24,61,408.43,Hyderabad,2025-05-26,17:15:12
-65,Item_21,323,192.08,Bangalore,2025-04-09,17:24:56
-66,Item_45,449,41.25,Bangalore,2025-06-10,01:22:44
-67,Item_22,302,199.37,Mumbai,2025-05-22,22:46:54
-68,Item_49,258,268.74,Bangalore,2025-06-12,19:43:26
-69,Item_17,255,159.41,Chennai,2025-06-26,08:06:00
-70,Item_7,175,438.24,Chennai,2025-04-04,14:06:51
-71,Item_11,67,243.64,Chennai,2025-04-26,20:11:02
-72,Item_37,33,356.52,Chennai,2025-01-07,14:16:01
-73,Item_10,206,141.88,Mumbai,2025-06-10,05:49:23
-74,Item_7,344,460.98,Chennai,2025-05-01,21:16:11
-75,Item_18,75,31.42,Mumbai,2025-06-12,17:20:03
-76,Item_3,307,402.34,Chennai,2025-04-29,06:08:20
-77,Item_13,235,307.96,Hyderabad,2025-05-11,22:55:22
-78,Item_37,83,21.19,Mumbai,2025-04-18,06:06:08
-79,Item_19,279,21.38,Mumbai,2025-03-30,22:48:37
-80,Item_38,98,333.16,Mumbai,2025-05-25,02:03:01
-81,Item_1,13,102.57,Hyderabad,2025-06-09,16:41:20
-82,Item_27,484,131.26,Hyderabad,2025-06-04,05:33:55
-83,Item_33,340,427.88,Chennai,2025-02-26,07:13:05
-84,Item_24,491,63.43,Mumbai,2025-04-08,15:57:37
-85,Item_24,479,492.6,Chennai,2025-04-30,16:55:44
-86,Item_39,375,164.67,Mumbai,2025-06-01,05:51:21
-87,Item_22,239,363.33,Hyderabad,2025-01-09,13:14:34
-88,Item_37,394,296.5,Hyderabad,2025-03-15,20:10:46
-89,Item_45,455,68.1,Mumbai,2025-03-06,23:36:25
-90,Item_12,1,97.2,Mumbai,2025-06-09,15:54:15
-91,Item_43,31,444.19,Mumbai,2025-06-29,23:15:31
-92,Item_11,91,140.72,Bangalore,2025-04-27,06:14:17
-93,Item_45,286,141.5,Bangalore,2025-01-04,13:45:44
-94,Item_5,256,378.69,Bangalore,2025-06-01,16:19:16
-95,Item_42,364,287.06,Mumbai,2025-06-16,04:57:33
-96,Item_3,323,58.03,Bangalore,2025-05-09,01:02:52
-97,Item_39,302,190.55,Hyderabad,2025-01-24,12:23:31
-98,Item_23,144,461.1,Mumbai,2025-06-22,03:48:53
-99,Item_42,426,397.93,Bangalore,2025-04-28,03:09:24
-100,Item_1,402,491.28,Bangalore,2025-03-11,20:09:37
-101,Item_13,267,23.31,Hyderabad,2025-05-02,23:14:15
-102,Item_19,169,253.21,Hyderabad,2025-05-31,10:30:32
-103,Item_44,454,64.73,Hyderabad,2025-01-17,03:21:43
-104,Item_13,490,376.95,Bangalore,2025-01-16,01:59:17
-105,Item_3,264,489.06,Chennai,2025-01-20,16:16:06
-106,Item_18,344,178.07,Mumbai,2025-02-05,21:20:55
-107,Item_1,56,110.17,Hyderabad,2025-03-17,19:19:15
-108,Item_21,491,284.24,Mumbai,2025-05-29,10:19:44
-109,Item_49,317,79.76,Hyderabad,2025-04-11,17:59:35
-110,Item_9,343,344.18,Bangalore,2025-04-21,07:14:10
-111,Item_19,55,263.25,Mumbai,2025-01-30,09:56:29
-112,Item_34,32,311.23,Mumbai,2025-03-16,14:47:19
-113,Item_45,256,33.4,Mumbai,2025-05-28,11:09:48
-114,Item_16,137,143.15,Mumbai,2025-01-03,19:02:47
-115,Item_30,126,453.5,Mumbai,2025-06-01,12:59:31
-116,Item_12,455,305.06,Bangalore,2025-01-17,23:58:48
-117,Item_26,146,233.61,Chennai,2025-04-23,04:38:06
-118,Item_12,267,273.52,Bangalore,2025-03-01,10:43:17
-119,Item_40,330,192.93,Hyderabad,2025-02-08,00:20:33
-120,Item_39,165,300.54,Mumbai,2025-03-31,11:27:41
-121,Item_19,258,450.13,Chennai,2025-04-08,17:05:50
-122,Item_4,85,205.42,Chennai,2025-06-08,07:33:05
-123,Item_47,242,58.67,Mumbai,2025-01-17,19:02:59
-124,Item_42,424,360.43,Mumbai,2025-02-02,11:17:51
-125,Item_17,357,151.91,Mumbai,2025-03-28,00:42:52
-126,Item_35,165,53.98,Chennai,2025-02-24,19:47:20
-127,Item_31,173,148.25,Bangalore,2025-02-06,21:16:22
-128,Item_24,105,188.76,Chennai,2025-03-26,17:11:04
-129,Item_39,422,389.77,Mumbai,2025-05-09,21:18:17
-130,Item_3,108,284.23,Mumbai,2025-06-30,10:53:37
-131,Item_48,367,76.52,Mumbai,2025-03-06,03:45:55
-132,Item_11,81,23.75,Chennai,2025-04-09,05:12:44
-133,Item_28,85,394.95,Chennai,2025-02-03,04:25:32
-134,Item_24,267,222.47,Bangalore,2025-06-22,15:19:33
-135,Item_46,406,195.99,Chennai,2025-06-20,09:52:22
-136,Item_49,273,192.33,Mumbai,2025-03-29,12:15:05
-137,Item_44,374,323.19,Hyderabad,2025-05-28,17:53:27
-138,Item_3,140,284.82,Hyderabad,2025-04-19,16:19:59
-139,Item_23,152,63.89,Chennai,2025-02-03,09:52:04
-140,Item_18,140,119.59,Hyderabad,2025-02-08,10:33:48
-141,Item_43,108,465.88,Mumbai,2025-01-23,14:59:04
-142,Item_45,344,210.95,Chennai,2025-01-31,11:38:00
-143,Item_20,54,311.92,Mumbai,2025-02-23,07:04:31
-144,Item_14,202,298.73,Hyderabad,2025-03-20,02:09:31
-145,Item_26,209,378.98,Chennai,2025-05-15,17:17:45
-146,Item_49,157,252.84,Mumbai,2025-03-22,23:16:03
-147,Item_27,143,205.32,Mumbai,2025-01-08,02:00:36
-148,Item_26,461,65.35,Hyderabad,2025-02-06,20:44:25
-149,Item_44,406,250.75,Hyderabad,2025-04-19,22:58:10
-150,Item_31,376,70.49,Chennai,2025-02-19,23:32:37
-151,Item_1,254,181.44,Bangalore,2025-05-21,11:18:08
-152,Item_47,353,275.94,Mumbai,2025-02-19,20:32:15
-153,Item_38,318,177.18,Chennai,2025-04-13,20:18:06
-154,Item_14,105,76.1,Chennai,2025-01-05,05:48:13
-155,Item_21,214,113.4,Hyderabad,2025-03-26,15:27:01
-156,Item_13,165,23.88,Mumbai,2025-05-02,23:25:41
-157,Item_33,232,472.35,Mumbai,2025-06-28,20:11:47
-158,Item_18,59,162.57,Bangalore,2025-02-18,21:44:45
-159,Item_10,182,156.43,Bangalore,2025-03-25,09:35:25
-160,Item_20,162,79.13,Mumbai,2025-03-09,12:24:33
-161,Item_28,412,181.91,Hyderabad,2025-03-11,14:29:55
-162,Item_48,463,397.99,Hyderabad,2025-06-21,13:55:12
-163,Item_30,263,371.83,Chennai,2025-04-09,03:00:42
-164,Item_10,282,373.83,Hyderabad,2025-03-29,07:50:46
-165,Item_45,29,32.44,Hyderabad,2025-02-26,00:03:27
-166,Item_37,416,287.6,Hyderabad,2025-06-07,16:51:41
-167,Item_12,257,74.49,Hyderabad,2025-04-26,21:30:46
-168,Item_12,213,396.68,Mumbai,2025-03-28,12:20:24
-169,Item_30,24,19.77,Mumbai,2025-05-30,05:12:39
-170,Item_5,159,344.26,Mumbai,2025-04-23,15:35:59
-171,Item_2,498,41.78,Bangalore,2025-03-10,11:15:00
-172,Item_29,148,339.67,Hyderabad,2025-02-05,09:28:52
-173,Item_31,58,170.96,Mumbai,2025-05-31,00:16:22
-174,Item_26,21,279.87,Chennai,2025-04-22,20:14:53
-175,Item_9,187,429.41,Bangalore,2025-06-23,10:14:05
-176,Item_35,256,430.8,Hyderabad,2025-04-23,18:46:03
-177,Item_21,117,141.71,Bangalore,2025-02-08,17:05:50
-178,Item_25,400,467.41,Bangalore,2025-01-29,00:07:01
-179,Item_6,161,99.64,Chennai,2025-01-17,11:34:51
-180,Item_28,438,183.72,Bangalore,2025-05-15,03:08:56
-181,Item_13,319,328.84,Chennai,2025-03-31,03:48:26
-182,Item_18,117,142.59,Bangalore,2025-03-31,03:54:26
-183,Item_8,311,318.7,Chennai,2025-01-10,07:42:29
-184,Item_41,410,406.82,Bangalore,2025-05-02,07:48:28
-185,Item_30,50,35.42,Bangalore,2025-06-26,16:58:45
-186,Item_47,248,416.59,Chennai,2025-04-03,18:28:40
-187,Item_48,303,376.79,Chennai,2025-06-18,09:18:30
-188,Item_19,149,420.17,Mumbai,2025-01-13,15:45:05
-189,Item_5,272,175.11,Mumbai,2025-04-30,13:47:31
-190,Item_27,494,317.43,Chennai,2025-06-22,22:47:32
-191,Item_15,147,251.19,Hyderabad,2025-06-24,22:45:47
-192,Item_35,199,424.07,Mumbai,2025-01-14,17:53:19
-193,Item_27,144,469.16,Mumbai,2025-06-04,19:25:01
-194,Item_46,165,368.26,Mumbai,2025-01-20,05:21:22
-195,Item_15,144,469.98,Bangalore,2025-02-04,16:44:46
-196,Item_39,12,367.84,Chennai,2025-05-21,15:06:54
-197,Item_29,143,302.67,Chennai,2025-06-12,23:37:41
-198,Item_12,185,160.02,Hyderabad,2025-02-11,13:59:03
-199,Item_24,205,397.93,Mumbai,2025-03-28,10:00:55
-200,Item_26,97,197.7,Hyderabad,2025-04-19,15:51:27
+item_id,product_name,category,stock_level,reorder_point,warehouse_location,unit_price_inr,supplier_name,gst_percentage,status
+IND001,Ceramic Tiles,Home,95,70,Mumbai,4234,Murthy PLC,18,Out of Stock
+IND002,Water Tank,Home,23,22,Hyderabad,2791,Sampath-Naik,18,Available
+IND003,Electrical Wire,Electrical,123,81,Mumbai,2645,Raval Ltd,28,Out of Stock
+IND004,Paint Emulsion,Home,371,66,Hyderabad,2436,Tak-Bhandari,18,Low Stock
+IND005,LED Bulb,Electrical,416,77,Coimbatore,2092,Karnik Group,18,Available
+IND006,Water Tank,Home,452,76,Bangalore,4129,Sant PLC,12,Out of Stock
+IND007,Paint Emulsion,Home,130,47,Bangalore,1888,"Rattan, Shan and Devan",18,Low Stock
+IND008,Steel TMT Bar,Construction,384,25,Coimbatore,2859,"Pandit, Batta and Soman",5,Low Stock
+IND009,Cement OPC 53,Construction,242,33,Delhi,3069,"Vig, Saxena and Chatterjee",5,Available
+IND010,Paint Emulsion,Home,225,71,Mumbai,1064,Soni Group,12,Out of Stock
+IND011,Red Bricks,Construction,114,76,Chennai,4123,Prabhakar Ltd,5,Available
+IND012,Paint Emulsion,Home,165,64,Chennai,1474,"Sami, Bandi and Nazareth",18,Available
+IND013,Ceramic Tiles,Home,268,65,Delhi,1138,Raju and Sons,5,Out of Stock
+IND014,Water Tank,Home,390,63,Coimbatore,4579,Prabhu-Wagle,18,Out of Stock
+IND015,Cement OPC 53,Construction,294,25,Bangalore,807,"Deshmukh, Peri and Mander",18,Available
+IND016,LED Bulb,Electrical,145,96,Coimbatore,3738,Ramanathan Ltd,5,Out of Stock
+IND017,Granite Slab,Construction,251,33,Chennai,3469,Mani LLC,18,Low Stock
+IND018,PVC Pipes,Plumbing,195,31,Coimbatore,1870,"Bava, Gill and Memon",12,Available
+IND019,Paint Emulsion,Home,414,87,Chennai,3699,"Bhavsar, Patla and Buch",18,Available
+IND020,LED Bulb,Electrical,108,97,Delhi,3060,Hayre-Pradhan,18,Available
+IND021,Cement OPC 53,Construction,369,65,Bangalore,1134,"Shukla, Aurora and Bava",5,Out of Stock
+IND022,LED Bulb,Electrical,477,49,Chennai,1540,Roy-Bal,5,Available
+IND023,Steel TMT Bar,Construction,495,30,Coimbatore,876,Ranganathan-Khalsa,12,Available
+IND024,Water Tank,Home,241,82,Coimbatore,2410,Seshadri-Keer,28,Low Stock
+IND025,Steel TMT Bar,Construction,195,96,Chennai,3188,"Suri, Doctor and Chaudhari",18,Out of Stock
+IND026,Granite Slab,Construction,283,79,Bangalore,1850,Vyas-Thakkar,28,Available
+IND027,Paint Emulsion,Home,12,85,Hyderabad,314,Dada-Parikh,28,Out of Stock
+IND028,Red Bricks,Construction,358,43,Hyderabad,4027,Natarajan Group,5,Low Stock
+IND029,Granite Slab,Construction,189,38,Delhi,264,"Keer, Nigam and Dhingra",28,Available
+IND030,LED Bulb,Electrical,187,88,Delhi,2219,Sampath-Arora,18,Out of Stock
+IND031,Paint Emulsion,Home,30,22,Coimbatore,3814,Karan PLC,18,Low Stock
+IND032,LED Bulb,Electrical,11,27,Delhi,4614,"Magar, Kapur and Choudhry",5,Available
+IND033,Granite Slab,Construction,397,69,Hyderabad,4781,Lata-Wali,28,Low Stock
+IND034,Cement OPC 53,Construction,145,50,Hyderabad,2384,"Dara, Nazareth and Saraf",18,Available
+IND035,Electrical Wire,Electrical,297,25,Mumbai,3380,Dass LLC,12,Low Stock
+IND036,Ceramic Tiles,Home,422,60,Coimbatore,2710,Som-Chacko,12,Low Stock
+IND037,Steel TMT Bar,Construction,474,58,Delhi,2866,Lad LLC,18,Low Stock
+IND038,Paint Emulsion,Home,351,48,Mumbai,1490,"Menon, Sani and Vaidya",28,Out of Stock
+IND039,Red Bricks,Construction,10,64,Bangalore,1219,"Soni, Muni and Gandhi",28,Low Stock
+IND040,Water Tank,Home,83,53,Coimbatore,928,Raju-Pradhan,18,Low Stock
+IND041,Paint Emulsion,Home,288,33,Coimbatore,1551,"Golla, Raval and Nayak",28,Available
+IND042,Paint Emulsion,Home,291,63,Bangalore,742,Dara-Grover,28,Low Stock
+IND043,Water Tank,Home,245,79,Chennai,4496,Biswas-Subramaniam,12,Available
+IND044,Water Tank,Home,301,42,Coimbatore,1449,"Ghosh, Karpe and Khalsa",18,Out of Stock
+IND045,LED Bulb,Electrical,399,89,Mumbai,4670,Varkey-Ravi,18,Available
+IND046,Ceramic Tiles,Home,318,34,Mumbai,1672,Subramanian-Choudhary,28,Out of Stock
+IND047,Paint Emulsion,Home,281,41,Delhi,948,"Halder, Rana and Sankaran",28,Available
+IND048,Granite Slab,Construction,160,71,Delhi,2414,Memon PLC,18,Low Stock
+IND049,Water Tank,Home,319,98,Hyderabad,2737,Bhatti Inc,12,Out of Stock
+IND050,Ceramic Tiles,Home,241,77,Bangalore,3684,Sampath-Murty,28,Out of Stock
+IND051,Granite Slab,Construction,323,27,Mumbai,982,Venkatesh Inc,18,Out of Stock
+IND052,Ceramic Tiles,Home,265,56,Delhi,3270,Shukla and Sons,18,Low Stock
+IND053,Ceramic Tiles,Home,355,94,Chennai,3139,Mammen and Sons,18,Available
+IND054,Steel TMT Bar,Construction,348,46,Delhi,2494,Virk Inc,18,Available
+IND055,Electrical Wire,Electrical,120,38,Coimbatore,1852,Narayanan-Mani,18,Out of Stock
+IND056,Cement OPC 53,Construction,393,32,Hyderabad,1180,Tella-Sangha,18,Low Stock
+IND057,Water Tank,Home,253,20,Bangalore,2302,Sankar-Varughese,28,Out of Stock
+IND058,Cement OPC 53,Construction,159,67,Mumbai,3353,Subramanian Ltd,18,Low Stock
+IND059,PVC Pipes,Plumbing,375,92,Bangalore,1797,Goyal Inc,12,Low Stock
+IND060,Granite Slab,Construction,400,35,Chennai,3631,Krishnan-Chaudhry,18,Available
+IND061,Ceramic Tiles,Home,500,61,Mumbai,2023,Shroff-Shah,12,Available
+IND062,Red Bricks,Construction,263,64,Delhi,415,"Padmanabhan, Jhaveri and Bajwa",18,Out of Stock
+IND063,PVC Pipes,Plumbing,45,27,Mumbai,2573,"Dutta, Dhar and Gola",5,Available
+IND064,PVC Pipes,Plumbing,364,89,Delhi,2478,Tata-Padmanabhan,5,Out of Stock
+IND065,Paint Emulsion,Home,32,21,Delhi,3089,Mahajan-Sidhu,5,Out of Stock
+IND066,Ceramic Tiles,Home,170,29,Bangalore,814,Sodhi-Shanker,12,Low Stock
+IND067,Electrical Wire,Electrical,127,51,Chennai,1577,Pai and Sons,18,Low Stock
+IND068,LED Bulb,Electrical,257,99,Mumbai,2796,Yogi-Dhawan,18,Low Stock
+IND069,Electrical Wire,Electrical,103,20,Bangalore,1007,"Muni, Dalal and Swaminathan",18,Available
+IND070,Electrical Wire,Electrical,62,57,Chennai,2793,Guha Ltd,18,Available
+IND071,Cement OPC 53,Construction,207,98,Chennai,3591,Chandra PLC,18,Available
+IND072,Steel TMT Bar,Construction,18,31,Hyderabad,358,Sabharwal and Sons,28,Out of Stock
+IND073,Steel TMT Bar,Construction,247,57,Coimbatore,2982,Bansal-Varughese,5,Out of Stock
+IND074,Ceramic Tiles,Home,399,99,Mumbai,777,Kannan-Mitter,12,Out of Stock
+IND075,Water Tank,Home,435,92,Bangalore,393,Chadha-Rama,12,Available
+IND076,Ceramic Tiles,Home,449,70,Bangalore,2491,"Brahmbhatt, Tella and Raja",18,Out of Stock
+IND077,Granite Slab,Construction,453,56,Chennai,2570,"Mitter, Setty and Din",5,Out of Stock
+IND078,Red Bricks,Construction,146,98,Mumbai,3359,Dugar-Agarwal,18,Available
+IND079,LED Bulb,Electrical,320,100,Coimbatore,850,"Boase, Saran and Nagarajan",28,Low Stock
+IND080,Granite Slab,Construction,174,70,Chennai,821,"Chatterjee, Ramanathan and Deo",18,Out of Stock
+IND081,Ceramic Tiles,Home,18,71,Mumbai,1445,Mannan and Sons,12,Out of Stock
+IND082,Electrical Wire,Electrical,460,41,Hyderabad,3473,Verma-Walia,12,Low Stock
+IND083,Red Bricks,Construction,21,60,Delhi,504,"Buch, Dey and Mani",5,Available
+IND084,PVC Pipes,Plumbing,271,78,Mumbai,2431,Sawhney and Sons,12,Out of Stock
+IND085,Red Bricks,Construction,72,70,Hyderabad,1711,"Majumdar, Nagy and Parsa",5,Available
+IND086,Ceramic Tiles,Home,457,22,Coimbatore,4254,Varghese-Vala,18,Available
+IND087,PVC Pipes,Plumbing,424,76,Coimbatore,3439,Dar PLC,28,Out of Stock
+IND088,Ceramic Tiles,Home,327,31,Delhi,4178,"Kalla, Natt and Khosla",18,Out of Stock
+IND089,Steel TMT Bar,Construction,361,91,Bangalore,3915,Jhaveri Ltd,28,Out of Stock
+IND090,Red Bricks,Construction,264,49,Chennai,3084,Banerjee Group,12,Available
+IND091,Paint Emulsion,Home,129,60,Bangalore,2718,"Tank, Bakshi and Naik",28,Low Stock
+IND092,Granite Slab,Construction,114,89,Hyderabad,3383,Prakash PLC,5,Low Stock
+IND093,Electrical Wire,Electrical,225,88,Chennai,2619,Dey Ltd,5,Out of Stock
+IND094,Ceramic Tiles,Home,500,67,Hyderabad,3958,"Golla, Dasgupta and Puri",28,Available
+IND095,PVC Pipes,Plumbing,401,32,Chennai,1185,Ratti-Dar,18,Low Stock
+IND096,Red Bricks,Construction,283,87,Delhi,1772,"Chadha, Bakshi and Wason",5,Out of Stock
+IND097,Red Bricks,Construction,354,97,Delhi,3179,Raval and Sons,12,Low Stock
+IND098,Granite Slab,Construction,108,77,Bangalore,2336,Narayan LLC,18,Out of Stock
+IND099,Steel TMT Bar,Construction,418,63,Bangalore,4915,Wable-Modi,28,Low Stock
+IND100,Ceramic Tiles,Home,284,30,Mumbai,2294,"Chaudry, Mandal and Bhatt",28,Out of Stock
+IND101,Red Bricks,Construction,158,43,Coimbatore,4701,Borra Group,12,Out of Stock
+IND102,LED Bulb,Electrical,394,57,Mumbai,2632,Sura Ltd,5,Available
+IND103,Cement OPC 53,Construction,457,66,Delhi,2610,Rajan Inc,5,Available
+IND104,Granite Slab,Construction,481,50,Mumbai,4948,"Kothari, Thaker and Amble",28,Out of Stock
+IND105,Cement OPC 53,Construction,452,28,Chennai,1159,Dhillon Ltd,28,Out of Stock
+IND106,Paint Emulsion,Home,305,30,Delhi,601,Naik and Sons,28,Available
+IND107,Cement OPC 53,Construction,264,22,Bangalore,3953,Thaman-More,12,Out of Stock
+IND108,Water Tank,Home,487,39,Hyderabad,533,Bhagat-Shah,5,Low Stock
+IND109,Electrical Wire,Electrical,211,93,Bangalore,3496,Sabharwal PLC,18,Out of Stock
+IND110,Red Bricks,Construction,111,82,Bangalore,2410,Devan Group,5,Low Stock
+IND111,Electrical Wire,Electrical,458,68,Mumbai,514,"Gour, Zachariah and Thakkar",28,Out of Stock
+IND112,Electrical Wire,Electrical,183,86,Coimbatore,2416,Bhatti-Wali,12,Available
+IND113,Electrical Wire,Electrical,441,34,Delhi,1182,"Jain, Kapoor and Singhal",5,Out of Stock
+IND114,Red Bricks,Construction,193,76,Mumbai,2320,"Date, Thakkar and Bhalla",12,Out of Stock
+IND115,Red Bricks,Construction,365,40,Mumbai,4317,"Sen, Bhasin and Sawhney",28,Available
+IND116,Paint Emulsion,Home,11,98,Bangalore,1120,Dhillon LLC,18,Out of Stock
+IND117,LED Bulb,Electrical,242,76,Delhi,2031,Kannan and Sons,12,Out of Stock
+IND118,LED Bulb,Electrical,484,55,Delhi,137,Salvi Inc,28,Low Stock
+IND119,Electrical Wire,Electrical,192,52,Bangalore,572,Mannan Group,12,Low Stock
+IND120,Steel TMT Bar,Construction,135,99,Coimbatore,160,"Mishra, Rao and Ben",5,Low Stock
+IND121,Cement OPC 53,Construction,119,95,Coimbatore,1154,Garde-Chokshi,28,Low Stock
+IND122,Water Tank,Home,460,61,Bangalore,4707,Seth-Seshadri,18,Available
+IND123,Steel TMT Bar,Construction,459,48,Coimbatore,1765,Kamdar-Munshi,12,Out of Stock
+IND124,Paint Emulsion,Home,299,40,Mumbai,3736,Ravel-Dave,18,Low Stock
+IND125,Water Tank,Home,60,25,Bangalore,554,Nanda LLC,12,Out of Stock
+IND126,Water Tank,Home,70,29,Mumbai,3359,Balakrishnan Ltd,28,Out of Stock
+IND127,PVC Pipes,Plumbing,213,97,Chennai,4109,Talwar-Rao,28,Low Stock
+IND128,Steel TMT Bar,Construction,183,72,Chennai,2537,Dyal Group,5,Out of Stock
+IND129,Paint Emulsion,Home,284,58,Hyderabad,1239,Solanki Ltd,12,Out of Stock
+IND130,Cement OPC 53,Construction,264,91,Hyderabad,967,"Datta, Mohanty and Mand",28,Out of Stock
+IND131,Electrical Wire,Electrical,402,67,Mumbai,3341,Jha-Madan,5,Low Stock
+IND132,Electrical Wire,Electrical,312,86,Coimbatore,1925,Mahal-Bail,28,Low Stock
+IND133,Steel TMT Bar,Construction,473,82,Bangalore,4843,Varty Inc,18,Available
+IND134,Red Bricks,Construction,77,38,Bangalore,4996,Kota-Palla,18,Low Stock
+IND135,Cement OPC 53,Construction,442,46,Delhi,807,Rajagopal-Pradhan,28,Low Stock
+IND136,Electrical Wire,Electrical,52,73,Mumbai,1020,Bhatti-Ramaswamy,12,Low Stock
+IND137,PVC Pipes,Plumbing,487,83,Coimbatore,490,Ganesh-Sekhon,28,Out of Stock
+IND138,Electrical Wire,Electrical,491,88,Hyderabad,1129,"Radhakrishnan, Bajwa and Mohanty",12,Low Stock
+IND139,Paint Emulsion,Home,278,94,Coimbatore,4098,"Baral, Baral and Kari",18,Available
+IND140,Cement OPC 53,Construction,35,38,Chennai,943,Dubey-Sem,18,Low Stock
+IND141,Red Bricks,Construction,401,94,Coimbatore,1533,Saraf Inc,28,Available
+IND142,Paint Emulsion,Home,275,51,Bangalore,4196,Badal-Baral,5,Available
+IND143,LED Bulb,Electrical,297,43,Chennai,767,"Lala, Chakraborty and Venkataraman",28,Available
+IND144,LED Bulb,Electrical,147,76,Bangalore,2428,Tripathi-Trivedi,28,Out of Stock
+IND145,Electrical Wire,Electrical,207,71,Bangalore,3960,Bahri-Grover,28,Out of Stock
+IND146,Paint Emulsion,Home,141,89,Bangalore,1592,Date-Wagle,5,Low Stock
+IND147,Electrical Wire,Electrical,353,29,Bangalore,2183,Khare Ltd,5,Available
+IND148,LED Bulb,Electrical,370,48,Mumbai,4792,Konda Inc,12,Available
+IND149,Water Tank,Home,110,43,Mumbai,3079,"Prakash, Tripathi and Chand",12,Out of Stock
+IND150,PVC Pipes,Plumbing,292,36,Delhi,1666,Garde-Narayan,28,Low Stock
+IND151,LED Bulb,Electrical,488,37,Chennai,637,"Golla, Deol and Badal",28,Available
+IND152,Granite Slab,Construction,331,85,Delhi,2127,"Tandon, Bir and Bahl",5,Low Stock
+IND153,Electrical Wire,Electrical,440,75,Coimbatore,1866,Mandal Ltd,5,Low Stock
+IND154,Electrical Wire,Electrical,465,85,Coimbatore,346,Roy-Nadkarni,28,Available
+IND155,Cement OPC 53,Construction,413,34,Coimbatore,1863,"Parmer, Pant and Seshadri",5,Low Stock
+IND156,Steel TMT Bar,Construction,146,23,Coimbatore,984,"Krish, Rao and Sankar",28,Out of Stock
+IND157,Granite Slab,Construction,305,32,Delhi,870,"Chowdhury, Swamy and Barad",28,Available
+IND158,Red Bricks,Construction,86,91,Delhi,1284,Kohli-Manne,12,Available
+IND159,LED Bulb,Electrical,120,51,Delhi,4310,Rau LLC,18,Available
+IND160,Steel TMT Bar,Construction,249,29,Hyderabad,2653,"Mander, Yohannan and Wable",28,Available
+IND161,Paint Emulsion,Home,440,56,Delhi,4297,Mital-Yogi,18,Available
+IND162,Paint Emulsion,Home,162,42,Delhi,360,Lanka Ltd,12,Low Stock
+IND163,Electrical Wire,Electrical,372,20,Mumbai,1115,Anne-Deshmukh,12,Out of Stock
+IND164,Granite Slab,Construction,425,65,Bangalore,806,Aggarwal-Nadkarni,12,Out of Stock
+IND165,Red Bricks,Construction,320,91,Delhi,917,Khurana-Butala,5,Available
+IND166,LED Bulb,Electrical,322,52,Chennai,3809,Oza LLC,18,Out of Stock
+IND167,LED Bulb,Electrical,55,71,Mumbai,3494,Bhargava-Srinivasan,12,Low Stock
+IND168,Cement OPC 53,Construction,215,35,Bangalore,3827,Raman-Bala,18,Available
+IND169,Water Tank,Home,358,88,Chennai,2384,Khatri Group,12,Out of Stock
+IND170,PVC Pipes,Plumbing,228,46,Chennai,4515,Dewan Group,12,Low Stock
+IND171,Ceramic Tiles,Home,338,37,Delhi,3097,"Chaudhari, Narain and Bains",5,Low Stock
+IND172,PVC Pipes,Plumbing,417,77,Hyderabad,251,"Karan, Parsa and Taneja",5,Available
+IND173,Electrical Wire,Electrical,236,60,Delhi,1360,Mallick PLC,12,Out of Stock
+IND174,Steel TMT Bar,Construction,496,67,Delhi,1492,"Sachar, Saha and Chakrabarti",18,Out of Stock
+IND175,PVC Pipes,Plumbing,150,87,Bangalore,4280,"Patel, Dada and Deep",28,Out of Stock
+IND176,Ceramic Tiles,Home,150,97,Bangalore,4251,Singh-Narayan,18,Low Stock
+IND177,Water Tank,Home,331,96,Coimbatore,1069,"Agrawal, Yohannan and Bhakta",12,Out of Stock
+IND178,Paint Emulsion,Home,107,54,Mumbai,201,Hora-Dada,12,Available
+IND179,LED Bulb,Electrical,245,96,Bangalore,304,"Saraf, Khosla and Dara",5,Out of Stock
+IND180,Water Tank,Home,467,63,Mumbai,4987,"Hayre, Dora and Dar",5,Available
+IND181,Red Bricks,Construction,326,33,Hyderabad,3723,Sha-Brar,12,Available
+IND182,PVC Pipes,Plumbing,295,43,Bangalore,2480,"Sane, Mangat and Savant",28,Low Stock
+IND183,Granite Slab,Construction,11,58,Chennai,3119,Suri-Rama,28,Low Stock
+IND184,Electrical Wire,Electrical,278,63,Mumbai,1323,"Mody, Krishna and Sami",12,Out of Stock
+IND185,PVC Pipes,Plumbing,36,50,Bangalore,3122,Nagarajan-Saran,12,Low Stock
+IND186,Electrical Wire,Electrical,37,59,Mumbai,722,Sachar-Chahal,28,Out of Stock
+IND187,PVC Pipes,Plumbing,410,76,Delhi,2634,Gara-Raj,28,Available
+IND188,Granite Slab,Construction,76,45,Delhi,1945,"Warrior, Patil and Nigam",28,Out of Stock
+IND189,Steel TMT Bar,Construction,436,37,Delhi,4487,Issac-Prakash,12,Low Stock
+IND190,Red Bricks,Construction,314,28,Hyderabad,2173,Varty PLC,12,Low Stock
+IND191,Water Tank,Home,17,98,Bangalore,3392,Badal LLC,28,Available
+IND192,LED Bulb,Electrical,281,92,Hyderabad,222,"Vig, Ramakrishnan and Sant",28,Out of Stock
+IND193,Ceramic Tiles,Home,97,34,Chennai,1731,Varghese-Guha,12,Low Stock
+IND194,Water Tank,Home,368,50,Delhi,818,Agate-Varma,18,Low Stock
+IND195,Ceramic Tiles,Home,122,38,Delhi,3543,Mannan and Sons,5,Available
+IND196,PVC Pipes,Plumbing,436,69,Delhi,318,Dayal Ltd,12,Low Stock
+IND197,Electrical Wire,Electrical,320,20,Bangalore,4709,Batta Group,5,Out of Stock
+IND198,Steel TMT Bar,Construction,106,43,Hyderabad,4290,Oza Ltd,28,Out of Stock
+IND199,Electrical Wire,Electrical,193,65,Delhi,907,Mand Group,12,Low Stock
+IND200,Granite Slab,Construction,482,67,Chennai,111,Sem Group,18,Out of Stock

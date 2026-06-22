@@ -1,21 +1,29 @@
-
+# ==============================
 # IMPORT LIBRARIES
+# ==============================
 
 import pandas as pd
 import os
 import logging
-import re
+import re  #used to extract data from text and perform pattern matching.    
 
+# ==============================
 # LOGGING SETUP
-os.makedirs("logs", exist_ok=True)
+# ==============================
 
+os.makedirs("logs", exist_ok=True) # Ensures the logs/ folder exists.
+os.makedirs("data/processed", exist_ok=True)
+            
 logging.basicConfig(
     filename='logs/transformation.log',
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
 
+# ==============================
 # LOAD DATA (FROM INGESTION OUTPUT)
+# ==============================
+
 def load_data():
     try:
         inventory_path = "data/raw/inventory_raw.csv"
@@ -36,13 +44,14 @@ def load_data():
         logging.error(f"Error loading data: {e}")
         return pd.DataFrame(), pd.DataFrame(), ""
 
-
+# ==============================
 # CLEAN DATA
+# ==============================
+
 def clean_inventory(df):
     try:
-        df = df.dropna()
-        df = df.drop_duplicates()
-        df['date'] = pd.to_datetime(df['date'])
+        df = df.dropna() # Removes rows with any missing values (NaN) from the DataFrame.
+        df = df.drop_duplicates() # Removes duplicate rows from the DataFrame, keeping the first occurrence.
 
         logging.info("Inventory cleaned successfully")
         return df
@@ -54,10 +63,14 @@ def clean_inventory(df):
 
 def clean_shipment(df):
     try:
-        df = df.dropna()
-        df = df.drop_duplicates()
-        df['date'] = pd.to_datetime(df['date'])
-
+        df = df.dropna() # Removes rows with any missing values (NaN) from the DataFrame.
+        df = df.drop_duplicates() # Removes duplicate rows from the DataFrame, keeping the first occurrence.
+        
+        
+        df['dispatch_date'] = pd.to_datetime(df['dispatch_date']) # Converts the 'dispatch_date' column to datetime format.
+        df['expected_delivery_date'] = pd.to_datetime(df['expected_delivery_date']) # Converts the 'expected_delivery_date' column to datetime format.
+        df['actual_delivery_date'] = pd.to_datetime(df['actual_delivery_date']) # Converts the 'actual_delivery_date' column to datetime format.
+    
         logging.info("Shipment cleaned successfully")
         return df
 
@@ -65,23 +78,30 @@ def clean_shipment(df):
         logging.error(f"Error cleaning shipment: {e}")
         return df
 
-
+# ==============================
 # FEATURE ENGINEERING
+# ==============================
+
 def add_inventory_features(df):
     try:
-        df['total_value'] = df['quantity'] * df['price']
+
+        df['total_value'] = df['stock_level'] * df['unit_price_inr'] # Calculate inventory value
+        
         logging.info("Inventory features added")
         return df
+        
     except Exception as e:
         logging.error(f"Error adding inventory features: {e}")
         return df
 
-
+# ==============================
 # INVOICE PARSING
+# ==============================
+
 def process_invoice(text):
     try:
-        invoice_id = re.search(r'INV-\\d+', text)
-        grand_total = re.search(r'Grand Total:\\s*(\\d+)', text)
+        invoice_id = re.search(r'INV-\\d+', text)       #re.search() → text la pattern search pannum,  INV-\d+ na meaning: INV- → exact word, \d+ → one or more digits. So it will match patterns like INV-12345.
+        grand_total = re.search(r'Grand Total:\\s*(\\d+)', text) # Grand Total: → same text match,\s* → space irundhaalum illainaalum ok,(\d+) → numbers edukkum (group aa capture pannum)
 
         data = {
             "invoice_id": invoice_id.group() if invoice_id else None,
@@ -95,15 +115,17 @@ def process_invoice(text):
         logging.error(f"Error processing invoice: {e}")
         return {}
 
-
+# ==============================
 # ANALYTICS FUNCTIONS
+# ==============================
+
 def inventory_analysis(df):
     try:
-        summary = df.groupby('item_name')['quantity'].sum().reset_index()
-        print("\n Inventory Summary:\n", summary)
+       summary = df.groupby('product_name')['stock_level'].sum().reset_index()
+       print("\n Inventory Summary:\n", summary)
 
-        logging.info("Inventory analysis completed")
-        return summary
+       logging.info("Inventory analysis completed")
+       return summary
 
     except Exception as e:
         logging.error(f"Error in inventory analysis: {e}")
@@ -112,8 +134,9 @@ def inventory_analysis(df):
 
 def shipment_analysis(df):
     try:
-        status_summary = df['status'].value_counts().reset_index()
-        status_summary.columns = ['status', 'count']
+        # Correct column name
+        status_summary = df['shipment_status'].value_counts().reset_index()
+
 
         print("\n Shipment Status:\n", status_summary)
 
@@ -124,23 +147,40 @@ def shipment_analysis(df):
         logging.error(f"Error in shipment analysis: {e}")
         return pd.DataFrame()
 
-
-def time_analysis(df):
+# ===============================
+# PREPARE TEXT FOR LLM / SHESHAT
+# ===============================
+def prepare_text_data(inventory_df, shipment_df):
     try:
-        df['hour'] = pd.to_datetime(df['time']).dt.hour
-        hourly = df.groupby('hour')['quantity'].sum().reset_index()
+        texts = []
 
-        print("\n Time-based Analysis:\n", hourly)
+        # Inventory → text
+        for _, row in inventory_df.iterrows():
+            text = f"""
+            Product {row['product_name']} has stock level {row['stock_level']} 
+            in warehouse {row['warehouse_location']} with price {row['unit_price_inr']} INR.
+            """
+            texts.append(text)
 
-        logging.info("Time-based analysis completed")
-        return hourly
+        # Shipment → text
+        for _, row in shipment_df.iterrows():
+            text = f"""
+            Shipment {row['shipment_id']} from {row['origin_city']} to {row['destination_city']} 
+            is {row['shipment_status']} with cost {row['freight_cost_inr']} INR.
+            """
+            texts.append(text)
+
+        logging.info("Text data prepared successfully")
+        return texts
 
     except Exception as e:
-        logging.error(f"Error in time analysis: {e}")
-        return pd.DataFrame()
+        logging.error(f"Error preparing text data: {e}")
+        return []
 
 
+# ==============================
 # SAVE PROCESSED DATA
+# ==============================
 def save_processed(inventory_df, shipment_df, invoice_data):
 
     os.makedirs("data/processed", exist_ok=True)
@@ -155,8 +195,10 @@ def save_processed(inventory_df, shipment_df, invoice_data):
     print("\n Final data saved successfully")
 
 
-
+# ==============================
 # MAIN EXECUTION
+# ==============================
+
 if __name__ == "__main__":
 
     print("\n Starting Data Transformation...\n")
@@ -176,7 +218,18 @@ if __name__ == "__main__":
     # Analytics
     inventory_analysis(inventory)
     shipment_analysis(shipment)
-    time_analysis(inventory)
+    
+    
+    # ✅ ADD HERE (TEXT PREPARATION START)
+    texts = prepare_text_data(inventory, shipment)
+
+    # ✅ SAVE TEXT FILE
+    with open("data/processed/text_data.txt", "w", encoding="utf-8") as f:
+      for t in texts:
+         f.write(t.strip() + "\n\n")
+    logging.info("Text data saved successfully")
+    # ✅ TEXT PREPARATION END
+
 
     # Save final outputs
     save_processed(inventory, shipment, invoice_data)

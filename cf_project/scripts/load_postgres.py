@@ -1,14 +1,17 @@
 
-
+# ==============================
 # IMPORT LIBRARIES
+# ==============================
 
 import pandas as pd
-from sqlalchemy import create_engine
+from sqlalchemy import create_engine # Used to create a connection to the PostgreSQL database and execute SQL commands.
 import logging
 import os
 
-
+# ==============================
 # LOGGING CONFIGURATION
+# ==============================
+
 
 os.makedirs("logs", exist_ok=True)
 
@@ -111,7 +114,7 @@ def create_fact_invoice(df, engine):
 # ==============================
 def create_dim_item(df, engine):
     try:
-        dim = df[['item_name']].drop_duplicates()
+        dim = df[['product_name']].drop_duplicates() # Extracts unique product names.
 
         dim.to_sql(
             "dim_item",
@@ -129,7 +132,7 @@ def create_dim_item(df, engine):
 
 def create_dim_location(df, engine):
     try:
-        dim = df[['warehouse']].drop_duplicates()
+        dim = df[['warehouse_location']].drop_duplicates() # Extracts unique warehouse locations.
 
         dim.to_sql(
             "dim_location",
@@ -147,7 +150,7 @@ def create_dim_location(df, engine):
 
 def create_dim_status(df, engine):
     try:
-        dim = df[['status']].drop_duplicates()
+        dim = df[['shipment_status']].drop_duplicates() # Extracts unique shipment statuses.
 
         dim.to_sql(
             "dim_status",
@@ -172,17 +175,17 @@ def run_queries(engine):
 
         # Inventory total value
         query1 = """
-        SELECT item_name, SUM(total_value) AS total_value
+        SELECT product_name, SUM(total_value) AS total_value
         FROM fact_inventory
-        GROUP BY item_name;
+        GROUP BY product_name;
         """
         print("📦 Inventory Value:\n", pd.read_sql(query1, engine))
 
         # Shipment count by status
         query2 = """
-        SELECT status, COUNT(*) AS count
+        SELECT shipment_status, COUNT(*) AS count
         FROM fact_shipment
-        GROUP BY status;
+        GROUP BY shipment_status;
         """
         print("\n🚚 Shipment Status:\n", pd.read_sql(query2, engine))
 
