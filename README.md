@@ -95,42 +95,42 @@ scripts/
 
 ## ⚙️ PROJECT WORKFLOW
 
-### 🔷 Step 1: Data Ingestion
+### 1.Data Ingestion
 - Reads CSV, JSON, and PDF files
 - Converts PDF → text
 - Stores cleaned raw files
 
-### 🔷 Step 2: Data Transformation
+### 2.Data Transformation
 - Removes nulls and duplicates
 - Converts data types
 - Performs feature engineering (`total_value`)
 - Generates `text_data.txt`
 
-### 🔷 Step 3: Text Preparation
+### 3.Text Preparation
 - Converts structured data into readable sentences
 - Example:
 
 Shipment IND-SHP001 from Chennai to Pune is Delayed
 
-### 🔷 Step 4: Vector Database Creation
+### 4.Vector Database Creation
 - Converts text into embeddings
 - Stores in ChromaDB (`vector_db/`)
 
-### 🔷 Step 5: Retrieval System
+### 5.Retrieval System
 - Uses similarity search (top-k)
 - Retrieves relevant records
 
-### 🔷 Step 6: AI Query System
+### 6.AI Query System
 - Accepts user query
 - Retrieves relevant data
 - Generates answer using rule-based logic
 
-### 🔷 Step 7: Streamlit UI
+### 7.Streamlit UI
 - Input query box
 - Displays answer
 - Shows retrieved data (debug)
 
-### 🔷 Step 8: Performance Evaluation
+### 8.Performance Evaluation
 - Measures latency
 - Evaluates retrieval accuracy
 - Generates report
