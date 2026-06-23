@@ -1,19 +1,19 @@
 
 
-# 📦 C&F AI Data Engineering Project
+#  C&F AI Data Engineering Project
 
-🚀 An end-to-end AI-powered data engineering system for Clearing & Forwarding (C&F) operations.  
+ An end-to-end AI-powered data engineering system for Clearing & Forwarding (C&F) operations.  
 This project integrates ETL pipelines, vector databases, and AI-based query systems with a Streamlit UI.
 
 ---
 
-## 🎯 Project Overview
+##  Project Overview
 
 This system processes multi-format logistics data (inventory, shipment, invoice), builds a searchable knowledge base, and enables natural language querying using AI.
 
 ---
 
-## 🧠 ABSTRACT
+##  ABSTRACT
 
 This project presents an end-to-end AI-powered data engineering system designed for Clearing & Forwarding operations.  
 It integrates ETL pipelines, vector databases, and AI-based retrieval mechanisms to process logistics data and enable intelligent querying.  
@@ -22,7 +22,7 @@ The system supports multi-format data (CSV, JSON, PDF) and transforms it into a 
 
 ---
 
-## 📖 INTRODUCTION
+##  INTRODUCTION
 
 The objective of this project is to build a scalable and modular data pipeline for logistics data processing.  
 Using modern AI techniques like vector search and retrieval-based querying (RAG), the system enables users to interact with data using natural language.
@@ -30,7 +30,7 @@ Using modern AI techniques like vector search and retrieval-based querying (RAG)
 The solution simplifies data access and provides business insights through an interactive interface.
 
 ---
-## 🧠 Key Features
+##  Key Features
 
 ✅ Multi-format Data Ingestion (CSV, JSON, PDF)  
 ✅ Data Cleaning & Transformation (ETL Pipeline)  
@@ -45,7 +45,7 @@ The solution simplifies data access and provides business insights through an in
 
 ---
 
-## 🏗️ SYSTEM ARCHITECTURE
+##  SYSTEM ARCHITECTURE
 
 Raw Data
 ↓
@@ -75,7 +75,7 @@ Streamlit User Interface
 
 ---
 
-## 📊 DATASET DESCRIPTION
+##  DATASET DESCRIPTION
 
 | Dataset | Format | Description |
 |--------|--------|------------|
@@ -83,7 +83,7 @@ Streamlit User Interface
 | Shipment | JSON | Shipment tracking details |
 | Invoice | PDF | Billing and transaction records |
 
-📂 File Locations:
+ File Locations:
 
 raw/
 data/raw/
@@ -93,7 +93,7 @@ scripts/
 
 ---
 
-## ⚙️ PROJECT WORKFLOW
+##  PROJECT WORKFLOW
 
 ### 1.Data Ingestion
 - Reads CSV, JSON, and PDF files
@@ -137,7 +137,7 @@ Shipment IND-SHP001 from Chennai to Pune is Delayed
 
 ---
 
-## 📂 PROJECT STRUCTURE
+##  PROJECT STRUCTURE
 
 
 cf_project/
@@ -165,7 +165,7 @@ cf_project/
 
 ---
 
-## ▶️ HOW TO RUN
+##  HOW TO RUN
 
 ```bash
 python scripts/ingestion.py
