@@ -76,7 +76,7 @@ if st.button("Get Answer"):
 
     if query:
 
-        with st.spinner("Processing..."):
+        with st.spinner("Processing...."):
 
             context = retrieve_context(db, query)
             answer = generate_answer(context, query)
