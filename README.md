@@ -3,7 +3,7 @@
 #  C&F AI Data Engineering Project
 
  An end-to-end AI-powered data engineering system for Clearing & Forwarding (C&F) operations.  
-This project integrates ETL pipelines, vector databases, and AI-based query systems with a Streamlit UI.
+This project integrates ETL pipelines,  vector databases, and AI-based query systems with a Streamlit UI.
 
 ---
 
