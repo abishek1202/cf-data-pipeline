@@ -7,7 +7,7 @@
 - Load invoice
 - Save raw data
 - validate data
-- run ingestion pipeline.
+- run ingestion pipeline..
 
 ### 2.TRANSFORMATION
 - Import libraries
